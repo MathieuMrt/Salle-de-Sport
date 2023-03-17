@@ -1,2 +1,43 @@
-@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap'); /*Font Poppins*/
-@import url('https://fonts.googleapis.com/css2? family= Gurajada & family= Poppins:wght@500 & display=swap'); /*Font Gurajada*/
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap"); /*Font Poppins*/
+@import url("https://fonts.googleapis.com/css2? family= Gurajada & family= Poppins:wght@500 & display=swap"); /*Font Gurajada*/
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.card {
+  display: flex;
+  padding: 25px;
+  margin: 25px;
+  align-items: center;
+}
+
+.cardright {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.imageleft .imageright {
+  height: 100%;
+  width: 40%;
+}
+.imageleft {
+  margin-top: 5px;
+}
+.imageright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+img {
+  height: 100%;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.text {
+  height: 100%;
+  width: 60%;
+}
