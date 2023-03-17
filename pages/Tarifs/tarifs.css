@@ -4,14 +4,17 @@
 
 body{
     background-image: url(/assets/Img/Image\ Tarif.png);
-    width: 150%;
-    border-top: 100px;
+    margin: 0;
+    width: auto;
+    height: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
     
-.container-1000{
+.container{
         display: flex;
         justify-content: center;
+        align-items: flex-end;
         gap: 2%;
         
 }
@@ -25,6 +28,9 @@ body{
         align-items: center;
         position: relative;
         text-align: center;
+       
+        
+        
      
 }
 
@@ -90,18 +96,25 @@ span{
 }
 
 h2{
+    width: 350PX ;
+    background-color: #ce8066;
+    border: solid #ce80660a ;
+   
     
 }
     
 
 h3{
+    text-decoration:underline #CE8066;
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
 }
 
 
-p{
+.text{
+    
+    padding: 3%;
     text-align: left;
-    line-height: 150%;
+    line-height: 180%;
 }
