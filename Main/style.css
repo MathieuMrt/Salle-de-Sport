@@ -109,10 +109,16 @@ body {
 
     font-family: "font-text";
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     height: 100%;
     letter-spacing: -0.5pt;
     background: var(--background-grey);
     
+}
+
+main {
+    flex: 1;
 }
 
 button {
@@ -143,7 +149,6 @@ footer {
     bottom: 0;
     background-color: var(--fond-header);
     width: 100%;
-    position: absolute;
     padding: 20px 0
 }
 
