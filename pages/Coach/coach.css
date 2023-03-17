@@ -46,3 +46,7 @@ img{
     flex-direction: row-reverse;
     align-items: center;
 }
+
+.container-1000 {
+    margin-bottom: 20px;
+}
