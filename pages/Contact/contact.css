@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2? family= Gurajada & family= Poppins:wght@500 & display=swap'); /*Font Gurajada*/
 
 .container-1000 {
-    padding : 15px;   
+    padding : 15px;  
+    background-color: ;
 }
 
 .card{
@@ -76,6 +77,11 @@ textarea {
     letter-spacing: -0.5pt;
    }
 
+button {
+    width : fit-content; 
+    align-self: center;
+}
+
 .form{
     display : flex;
     flex-direction : column;
@@ -83,6 +89,43 @@ textarea {
     padding-top : 15px; 
     padding-bottom : 15px; 
    }
+
+/* The alert message box */
+.alert {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--primary);
+    color: var(--fond-card);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    position: absolute;
+    height: 150px;
+    width: 50vw;
+    top: 700px;
+    left: 25%;
+    visibility; hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* The close button */
+  .closebtn {
+    position: absolute;
+    bottom: 75%;
+    left: 95%;
+    color: var(--fond-card);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: var(--h3-color);
+  }   
 
 
 .map{
@@ -117,3 +160,37 @@ textarea {
     }
 }
 
+
+
+@media screen and (max-width: 600px) {
+
+    .card{
+        height: 280px;  
+    }  
+
+    .alert {
+        top: 810px;
+        font-size: 1rem;
+    }
+
+    .closebtn {
+        bottom: 80%;
+        left: 90%;
+    }    
+}
+
+@media screen and (max-width: 360px) {
+    .card{
+        height: 380px;  
+        }
+
+    .alert {
+        top: 900px;
+        font-size: 0.8rem;
+    }
+
+    .closebtn {
+        bottom: 80%;
+        left: 85%;
+    }   
+}
