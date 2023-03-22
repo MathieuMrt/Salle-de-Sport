@@ -11,7 +11,22 @@ body{
     background-repeat: no-repeat;
 }
 
+
+.formule {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.397);
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    border-radius: 10px;
+    letter-spacing: 10px;
     
+}
+
+
+
 .container{
         display: flex;
         justify-content: center;
@@ -96,7 +111,7 @@ span{
 }
 
 h2{
-    width: 400PX ;
+    width: 100% ;
     background-color: #ce8066ab;
     border: solid #ce80660a ;
     
@@ -115,9 +130,8 @@ h3{
 
 
 .text{
-    
     padding: 3%;
-    text-align: left;
+    text-align: center;
     line-height: 180%;
 }
 
@@ -128,17 +142,46 @@ h3{
 
 }
 
+ 
+button{
+    background:#ce80668f;
+    border-radius: 10px;
+}
+button:hover{
+    background: linear-gradient(13deg, #000000, #f3f3f3), #000000;
+}
 
-@media  (max-width:800px) {
+
+.reserve{
+   color: #f3f3f3;
+   text-align: right;
+  margin-right: 15px;
+}
+
+
+@media  screen and  (max-width:1200px) {
+
+    
+
+    .container-header{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
    .container{
+         width: 100%;
          align-items: center;
          flex-direction: column;
          height: auto;
          
     
    }
-
+}
 
     
-}
+
+   
+
+    
