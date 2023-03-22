@@ -35,6 +35,10 @@
     padding: 25px;
 }
 
+button{
+    margin-top: 25px;
+}
+
 img{
     width: 80%;
     height: auto;
@@ -49,4 +53,35 @@ img{
 
 .container-1000 {
     margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-right {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+        justify-content: left;
+        padding-left: 0;
+    }
+
+    .image-left {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: left;
+    }
+
+    .image-right {
+        width: 100%;
+        height: 100%;
+        justify-content: left;
+    }
+
 }
