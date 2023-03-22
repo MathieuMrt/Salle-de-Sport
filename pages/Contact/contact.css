@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2? family= Poppins:wght@500 & display=swap'); /*Font Poppins*/
 @import url('https://fonts.googleapis.com/css2? family= Gurajada & family= Poppins:wght@500 & display=swap'); /*Font Gurajada*/
 
+.blur{
+    filter: blur(0);
+}
+
 .container-1000 {
     padding : 15px;  
-    background-color: ;
 }
 
 .card{
@@ -92,6 +95,7 @@ button {
 
 /* The alert message box */
 .alert {
+    padding : 20px;
     text-align: center;
     font-size: 1.2rem;
     background-color: var(--primary);
@@ -103,10 +107,11 @@ button {
     width: 50vw;
     top: 700px;
     left: 25%;
-    visibility; hidden;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    
   }
 
   /* The close button */
@@ -119,7 +124,6 @@ button {
     float: right;
     font-size: 22px;
     cursor: pointer;
-    transition: 0.3s;
   }
   
   /* When moving the mouse over the close button */
@@ -164,6 +168,11 @@ button {
 
 @media screen and (max-width: 600px) {
 
+    .container-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card{
         height: 280px;  
     }  
@@ -174,12 +183,18 @@ button {
     }
 
     .closebtn {
-        bottom: 80%;
+        bottom: 75%;
         left: 90%;
     }    
 }
 
 @media screen and (max-width: 360px) {
+
+    .container-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .card{
         height: 380px;  
         }
