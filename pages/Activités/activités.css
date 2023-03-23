@@ -45,6 +45,11 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .container-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .card {
     flex-direction: column;
     justify-content: center;
