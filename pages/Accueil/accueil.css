@@ -55,7 +55,7 @@ button {
 
 
 .img-card {
-    background: url(/assets/Img/slider-img-activite.png);
+    /* background: url(/assets/Img/slider-img-activite.png); */
     width: 300px;
     height: 300px;
     border-top-left-radius: 8px;
@@ -84,4 +84,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.button-next-page:active {
+    background: rgb(221, 221, 221);
 }
