@@ -85,3 +85,11 @@ img{
     }
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .container-header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
